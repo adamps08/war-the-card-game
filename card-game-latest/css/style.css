@@ -1,0 +1,72 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+}
+
+.cards{
+  display:flex;
+  
+  justify-content:center;
+  
+}
+
+h3, h1, .buttons {
+  display: flex;
+  justify-content:center;
+  transition:.5s;
+}
+
+h2{
+  display: flex;
+  margin:  2% 0 0 2%
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  background-color: #016d39;
+  color:white
+}
+
+button {
+  background-color: #019950;
+  /* background:#1fcc08; */
+  color:white;
+  padding: 1rem;
+  border-radius:0.5rem;
+  transition: .5s;
+  cursor:pointer;
+  border: 1px solid white;
+}
+
+ button:hover {
+  opacity: .5;
+}
+
+
+
+.task .actions .edit, .download {
+  border: 1px solid var(--light);
+} */
+
+
+/* #002925; */
